@@ -1,0 +1,26 @@
+{
+  "name": "sreaming-movies-api",
+  "version": "0.1.1",
+  "description": "an API feature about streaming movies website API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "movies",
+    "streaming",
+    "API"
+  ],
+  "author": "achmad rasidi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "body-parser": "^1.19.2",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2"
+  }
+}
