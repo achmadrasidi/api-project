@@ -1,0 +1,23 @@
+{
+  "name": "api-project",
+  "version": "0.0.1",
+  "description": "Api project for travel",
+  "main": "servers.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "travel-api"
+  ],
+  "author": "achmad rasidi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.8",
+    "soccerbot": "^0.3.3"
+  }
+}
